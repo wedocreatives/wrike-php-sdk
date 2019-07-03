@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the zibios/wrike-php-sdk package.
+ * This file is part of the wedocreatives/wrike-php-sdk package.
  *
  * (c) Zbigniew Ślązak
  *
@@ -9,26 +9,26 @@
  * file that was distributed with this source code.
  */
 
-namespace Zibios\WrikePhpSdk\Tests\Integration;
+namespace wedocreatives\WrikePhpSdk\Tests\Integration;
 
 use GuzzleHttp\Handler\MockHandler;
 use GuzzleHttp\HandlerStack;
 use GuzzleHttp\Psr7\Response;
-use Zibios\WrikePhpGuzzle\Client\GuzzleClient;
-use Zibios\WrikePhpGuzzle\Transformer\ApiException\GuzzleTransformer;
-use Zibios\WrikePhpLibrary\Api;
-use Zibios\WrikePhpLibrary\Exception\Api\AccessForbiddenException;
-use Zibios\WrikePhpLibrary\Exception\Api\ApiException;
-use Zibios\WrikePhpLibrary\Exception\Api\InvalidParameterException;
-use Zibios\WrikePhpLibrary\Exception\Api\InvalidRequestException;
-use Zibios\WrikePhpLibrary\Exception\Api\MethodNotFoundException;
-use Zibios\WrikePhpLibrary\Exception\Api\NotAllowedException;
-use Zibios\WrikePhpLibrary\Exception\Api\NotAuthorizedException;
-use Zibios\WrikePhpLibrary\Exception\Api\ParameterRequiredException;
-use Zibios\WrikePhpLibrary\Exception\Api\ResourceNotFoundException;
-use Zibios\WrikePhpLibrary\Exception\Api\ServerErrorException;
-use Zibios\WrikePhpLibrary\Transformer\Response\RawResponseTransformer;
-use Zibios\WrikePhpSdk\Tests\TestCase;
+use wedocreatives\WrikePhpGuzzle\Client\GuzzleClient;
+use wedocreatives\WrikePhpGuzzle\Transformer\ApiException\GuzzleTransformer;
+use wedocreatives\WrikePhpLibrary\Api;
+use wedocreatives\WrikePhpLibrary\Exception\Api\AccessForbiddenException;
+use wedocreatives\WrikePhpLibrary\Exception\Api\ApiException;
+use wedocreatives\WrikePhpLibrary\Exception\Api\InvalidParameterException;
+use wedocreatives\WrikePhpLibrary\Exception\Api\InvalidRequestException;
+use wedocreatives\WrikePhpLibrary\Exception\Api\MethodNotFoundException;
+use wedocreatives\WrikePhpLibrary\Exception\Api\NotAllowedException;
+use wedocreatives\WrikePhpLibrary\Exception\Api\NotAuthorizedException;
+use wedocreatives\WrikePhpLibrary\Exception\Api\ParameterRequiredException;
+use wedocreatives\WrikePhpLibrary\Exception\Api\ResourceNotFoundException;
+use wedocreatives\WrikePhpLibrary\Exception\Api\ServerErrorException;
+use wedocreatives\WrikePhpLibrary\Transformer\Response\RawResponseTransformer;
+use wedocreatives\WrikePhpSdk\Tests\TestCase;
 
 /**
  * Api Exception Wrike Transformer Test.

@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the zibios/wrike-php-sdk package.
+ * This file is part of the wedocreatives/wrike-php-sdk package.
  *
  * (c) Zbigniew Ślązak
  *
@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Zibios\WrikePhpSdk\Tests;
+namespace wedocreatives\WrikePhpSdk\Tests;
 
 /**
  * Test Case.

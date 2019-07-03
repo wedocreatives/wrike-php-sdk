@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the zibios/wrike-php-sdk package.
+ * This file is part of the wedocreatives/wrike-php-sdk package.
  *
  * (c) Zbigniew Ślązak
  *
@@ -9,12 +9,12 @@
  * file that was distributed with this source code.
  */
 
-namespace Zibios\WrikePhpSdk;
+namespace wedocreatives\WrikePhpSdk;
 
-use Zibios\WrikePhpGuzzle\ClientFactory;
-use Zibios\WrikePhpGuzzle\Transformer\ApiException\GuzzleTransformer;
-use Zibios\WrikePhpLibrary\Api;
-use Zibios\WrikePhpLibrary\Transformer\Response\Psr\ArrayBodyTransformer;
+use wedocreatives\WrikePhpGuzzle\ClientFactory;
+use wedocreatives\WrikePhpGuzzle\Transformer\ApiException\GuzzleTransformer;
+use wedocreatives\WrikePhpLibrary\Api;
+use wedocreatives\WrikePhpLibrary\Transformer\Response\Psr\ArrayBodyTransformer;
 
 /**
  * Api Factory.
