@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "php": ">=5.5,<7.2",
+        "php": ">=5.5",
         "wedocreatives/wrike-php-library": "^1.0",
         "wedocreatives/wrike-php-guzzle": "^1.0",
         "wedocreatives/wrike-php-jmsserializer": "^1.0"
