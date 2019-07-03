@@ -11,8 +11,8 @@
     ],
     "require": {
         "php": ">=5.5",
-        "zibios/wrike-php-library": "dev-v3.x",
-        "zibios/wrike-php-guzzle": "dev-v3.x",
+        "zibios/wrike-php-library": "v3.x-dev",
+        "zibios/wrike-php-guzzle": "v3.x-dev",
         "zibios/wrike-php-jmsserializer": "^1.0"
     },
     "require-dev": {
