@@ -11,9 +11,9 @@
     ],
     "require": {
         "php": ">=5.5",
-        "wedocreatives/wrike-php-library": "^1.0",
-        "wedocreatives/wrike-php-guzzle": "^1.0",
-        "wedocreatives/wrike-php-jmsserializer": "^1.0"
+        "zibios/wrike-php-library": "dev-v3.x",
+        "zibios/wrike-php-guzzle": "dev-v3.x",
+        "zibios/wrike-php-jmsserializer": "^1.0"
     },
     "require-dev": {
         "phpunit/phpunit": ">=4.0,<6.0"
